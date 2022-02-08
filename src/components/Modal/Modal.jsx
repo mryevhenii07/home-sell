@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { createPortal } from "react-dom";
 import s from "./Modal.module.css";
 
-//Видео Таня объеснение
-//создать дополнительный div в html с id #modal-root
 const modalRoot = document.querySelector("#modal-root");
 
 class Modal extends Component {
