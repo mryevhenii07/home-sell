@@ -89,21 +89,15 @@ export class App extends Component {
     this.setState({ imageStatus: "loaded" });
   };
 
-  //Modal end
-
-  // если прошлый запрос не равен текущему, то отправляем запрос
   componentDidUpdate(prevProps, prevState) {
     if (prevState.searchQuery !== this.state.searchQuery) {
       this.fetchImages();
-      // console.log('prevProps', prevState.searchQuery);
-      // console.log('prevState', this.state.searchQuery);
     }
   }
 
   render() {
     const { images, isLoading, showModal, bigImageUrl, imageStatus } =
       this.state;
-    //показать кнопку только в том случае, если длина  массива > 0 и нет загрузки
     const shouldRenderLoadMoreBtn = images.length > 0 && !isLoading;
     return (
       <div>
@@ -125,16 +119,5 @@ export class App extends Component {
     );
   }
 }
-
-App.propTypes = {
-  searchQuery: PropTypes.string,
-  images: PropTypes.arrayOf(PropTypes.object),
-  currentPage: PropTypes.number,
-  isLoading: PropTypes.bool,
-  error: PropTypes.object,
-  showModal: PropTypes.bool,
-  bigImageUrl: PropTypes.string,
-  imageStatus: PropTypes.string,
-};
 
 export default App;
