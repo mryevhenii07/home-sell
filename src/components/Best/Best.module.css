@@ -1,0 +1,69 @@
+.best {
+  width: 100%;
+  margin: 4rem 0;
+  text-align: center;
+}
+.best > div {
+  display: flex;
+  justify-content: center;
+}
+
+.best > div p {
+  margin: 1rem 2rem;
+  font-size: 1.2rem;
+}
+.bold {
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1240px;
+  margin: auto;
+}
+
+.btn {
+  color: #fff;
+  padding: 12px 24px;
+  background-image: linear-gradient(45deg, #5651e5 0%, #709dff 100%);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: translate(4px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0, 0.2);
+  border-bottom: none;
+}
+.best .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.2rem;
+  padding: 1rem;
+}
+
+.best img {
+  width: 100%;
+}
+
+@media screen and (max-width: 940px) {
+  .best {
+    margin: 1rem 0;
+  }
+  .best > div p {
+    margin: 1rem;
+    font-size: 1rem;
+  }
+  .best .container {
+    grid-template-columns: 1fr;
+    grid-gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .best > div p {
+    margin: 1rem 0.5rem;
+  }
+}
