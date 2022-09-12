@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/home-sell/static/css/main.a1cf0dd0.css",
-    "main.js": "/home-sell/static/js/main.c4e605ce.js",
+    "main.css": "/home-sell/static/css/main.f95f249c.css",
+    "main.js": "/home-sell/static/js/main.d06af748.js",
+    "static/media/house2.jpg": "/home-sell/static/media/house2.87e56bd05a9c9200a337.jpg",
     "static/media/hero-img.jpg": "/home-sell/static/media/hero-img.6bf08fe8a2341a0eff67.jpg",
+    "static/media/house1.jpg": "/home-sell/static/media/house1.04cf1648905ec0032d95.jpg",
+    "static/media/bath2.jpg": "/home-sell/static/media/bath2.3069680cd2fc8aff2dc5.jpg",
+    "static/media/bed4.jpg": "/home-sell/static/media/bed4.d325256855b00355ee2d.jpg",
+    "static/media/living-room.jpg": "/home-sell/static/media/living-room.255d422b4a56fcd9bcf2.jpg",
+    "static/media/bed1.jpg": "/home-sell/static/media/bed1.9e246f4340fc4d07e524.jpg",
+    "static/media/kitchen.jpg": "/home-sell/static/media/kitchen.30699db8cf0053cf39e2.jpg",
+    "static/media/bed2.jpg": "/home-sell/static/media/bed2.e6ba16d52f843b577b4e.jpg",
     "static/media/apt1.jpeg": "/home-sell/static/media/apt1.24bb930ff5bdeb7d8a36.jpeg",
     "static/media/apt3.jpeg": "/home-sell/static/media/apt3.823d618e7164526d5d58.jpeg",
     "static/media/apt2.jpeg": "/home-sell/static/media/apt2.019e0dd5fa55c2be1ee4.jpeg",
+    "static/media/bath1.jpg": "/home-sell/static/media/bath1.a48b0894e5a75dbc5005.jpg",
     "index.html": "/home-sell/index.html",
-    "main.a1cf0dd0.css.map": "/home-sell/static/css/main.a1cf0dd0.css.map",
-    "main.c4e605ce.js.map": "/home-sell/static/js/main.c4e605ce.js.map"
+    "main.f95f249c.css.map": "/home-sell/static/css/main.f95f249c.css.map",
+    "main.d06af748.js.map": "/home-sell/static/js/main.d06af748.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1cf0dd0.css",
-    "static/js/main.c4e605ce.js"
+    "static/css/main.f95f249c.css",
+    "static/js/main.d06af748.js"
   ]
 }
